@@ -1,0 +1,19 @@
+.SearchBox {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+
+    input {
+        width: 40%;
+        height: 100%;
+        border: none;
+        box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+        padding: 0 0.5rem;
+        border-radius: 5px;
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+}
